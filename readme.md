@@ -8,7 +8,7 @@ Ho maturato un'esperienza decennale come programmatore C++ di applicazioni scien
 Esperienze di lavoro
 ------
 <h3>Aruba S.p.A.</h3>  
-<a href="https://www.pec.it/partner-firma-digitale.aspx" target=_blank> view </a>
+<a href="https://www.pec.it/partner-firma-digitale.aspx" target="_blank"> view </a>
 <h4>marzo 2016 - oggi</h4>  
 <h5>Sviluppatore senior</h5> 
 In Aruba faccio parte del gruppo "eSecurity" e mi occupo prevalentemente di firma digitale. 
@@ -26,14 +26,14 @@ La mia attività di sviluppo, manutenzione e ricerca in Aruba riguarda inoltre:
 - documentazione dei sistemi ad uso interno
  
 <h3>Ars Automation srl</h3>  
- <a href="https://youtu.be/7DqNGhOCkgk" target=_blank> view </a>
+ <a href="https://youtu.be/7DqNGhOCkgk" target="_blank"> view </a>
 <h4>novembre 2015 - marzo 2016</h4> 
 <h5>Progetto automazione industriale "FlexiVision"</h5>
 
 Ho analizzato e realizzato un progetto destinato alla realizzazione di un software (FlexiVision) per la sincronizzazione e il controllo di robot generici e feeder tramite un sistema di computer vision. Il software, realizzato in C#, prevede la gestione sincronizzata dalla periferica di immagine, del robot e del feeder FlexiBowl prodotto da ARS. Le comunicazioni con i device avvengono tramite protocollo TCP/IP. La visione, dopo aver analizzato il frame corrente, fornisce al robot le coordinate del pezzo da movimentare (già convertite nel sistema di riferimento didestinazione), implementando un sistema di "pick&place" indipendente dalla specifica marca e tipologia di robot. La computer vision è stata implementata tramite la libreria proprietaria Halcon.
 
 <h3>Menci Software Srl</h3>  
- <a href="https://www.menci.com/it/" target=_blank> view </a>
+ <a href="https://www.menci.com/it/" target="_blank"> view </a>
 <h4>giugno 2004 - ottobre 2015</h4> 
 <h5>Sviluppatore software - R&D</h5>
 
