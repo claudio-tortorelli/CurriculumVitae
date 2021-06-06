@@ -37,22 +37,21 @@ Ho analizzato e realizzato un progetto destinato alla realizzazione di un softwa
 <h4>giugno 2004 - ottobre 2015</h4> 
 <h5>Sviluppatore software - R&D</h5>
 
-Durante la mia permanenza in Menci Software sono stato coinvolto nelle seguenti attività:
+Durante la mia permanenza in Menci Software hosvolto le seguenti attività:
 
-- sviluppo di software fotogrammetrico e computer vision per applicazioni di cartografia, rilievo stradale, sicurezza, archeologia, restauro, architettura, indagine forense e gestione immagini aeree e da drone. Ho utilizzato ilinguaggi C++, C, PHP e Javascript e l'IDE Visual Studio C++ con MFC 
-- creazione di interfacce multilingua custom
-- gestione dei dati voluminosi in flussi di lavoro complessi
-- verifica e testing procedure
-- integrazione tra sistemi e formati diversi
+- sviluppo di software fotogrammetrico e computer vision per applicazioni di cartografia, rilievo stradale, sicurezza, archeologia, restauro, architettura, indagine forense e gestione immagini aeree e da drone. Ho utilizzato i linguaggi C++, C, PHP e Javascript
+- creazione di interfacce multilingua custom MFC
+- gestione di dati voluminosi in flussi di lavoro complessi
 - integrazione e gestione di database SQL
+- verifica procedure e testing 
 - sistemi di protezione e licenza software, tramite dispositivi hardware custom e server di autenticazione 
-- interfacce software per la comunicazione e la sincronizzazione di dispositivi di immagine quali di fotocamere reflex, termocamere, visori stereoscopici, immersivi e view-through, microscopi, videoproiettori
+- sincronizzazione e accesso a dispositivi di immagine (fotocamere reflex, termocamere, visori stereoscopici, immersivi e view-through, microscopi, videoproiettori)
 - calibrazione delle periferiche di immagine
 - creazione di interfacce di controllo per slider con step-motor e teste a movimentazione micrometrica
 - gestione della rete LAN aziendale e setup sistemistico di server Windows e Linux
 - creazione e gestione dei siti internet aziendali, ottimizzazione SEO tramite le piattaforme CMS Joomla! e WordPress
 - realizzazione del materiale divulgativo (depliant, pannelli, video) tramite Adobe Photoshop, Illustrator e Premiere. Realizzazione degli help online e dei tutorial multilingua
-- partecipazione a fiere in rappresentanza dell'azienda (SAIE, ASITA, Salonedel Restauro di Ferrara, Roma Drone) e conferenze (CNR ICVBC, Universitàdi Firenze)
+- partecipazione a fiere in rappresentanza dell'azienda (SAIE, ASITA, Salonedel Restauro di Ferrara, Roma Drone) e conferenze (CNR ICVBC, Università di Firenze)
 - assistenza diretta al cliente. Ho tenuto corsi formativi presso il Centro di Addestramento per la Polizia Stradale di Cesena, il Cyprus Institute di Nicosia e per la Polizia Municipale di una decina di comuni italiani. All'estero ho fatto tutoraggio e assistenza presso l'azienda municipale BIMTAS di Istanbul
 
 <h3>SiSu srl</h3>  
@@ -69,7 +68,7 @@ Formazione
 - voto 97/110
 - Tesi "WebTesting: teoria ed applicazioni", relatore prof. Pierluigi Crescenzi
 
-<h3>ITC Buonarroti</h3>
+<h3>Istituto Tecnico Commerciale "Buonarroti", Arezzo</h3>
 <h4>1992 - 1997</h4> 
 - Diploma Tecnico Commerciale
 - voto 52/60
