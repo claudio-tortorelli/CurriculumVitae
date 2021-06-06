@@ -24,7 +24,7 @@ La mia attività di sviluppo, manutenzione e ricerca in Aruba riguarda inoltre:
 - testing automatico 
 - documentazione dei sistemi ad uso interno
  
-<h3><a href="https://www.arsautomation.com/" target="_blank"> Ars Automation srl </a></h3>  
+<h3><a href="https://www.arsautomation.com/" target="_blank"> Ars Automation Srl </a></h3>  
 <h4>novembre 2015 - marzo 2016</h4> 
 <h5>Progetto automazione industriale "FlexiVision"</h5>
 
@@ -51,7 +51,7 @@ Durante la mia permanenza in Menci Software hosvolto le seguenti attività:
 - partecipazione a fiere in rappresentanza dell'azienda (SAIE, ASITA, Salonedel Restauro di Ferrara, Roma Drone) e conferenze (CNR ICVBC, Università di Firenze)
 - assistenza diretta al cliente. Ho tenuto corsi formativi presso il Centro di Addestramento per la Polizia Stradale di Cesena, il Cyprus Institute di Nicosia e per la Polizia Municipale di una decina di comuni italiani. All'estero ho fatto tutoraggio e assistenza presso l'azienda municipale BIMTAS di Istanbul
 
-<h3><a href="https://sisu.it" target="_blank"> SiSu srl </a></h3>  
+<h3><a href="https://sisu.it" target="_blank"> SiSu Srl </a></h3>  
 <h4>ottobre 2003 - giugno 2004</h4> 
 <h5>Collaborazione a progetto open source "RadioVox"</h5>
 Ho collaborato al progetto open source "RadioVox" per la realizzazione di una regia automatica per le radio emittenti. 
