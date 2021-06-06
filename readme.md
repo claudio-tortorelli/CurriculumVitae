@@ -1,97 +1,75 @@
 # Curriculum Vitae di Claudio Tortorelli
-A C# CLI tool for automatic GPX track classification against KML area polygons
 
-----
-
-Purposes
+Riepilogo
 --------
-This tool was developed to support Arezzo section (www.caiarezzo.it) of Italian Alpine Club (www.cai.it/) to classify thousand of GPX into a set of categories (eg. valleys and mountains of the region).
-GPX were acquired with a Garmin GPS and KML area were drawn and exported with Google Earth.
+Sono fortemente motivato nello sviluppo di soluzioni software innovative, che richiedano interdisciplinarietà, ricerca e aggiornamento. A livello professionale ho sempre lavorato in team di sviluppo, assumendo anche ruoli di tutoraggio e coordinamento.
+Ho maturato un'esperienza decennale come programmatore C++ di applicazioni scientifiche con per hardware custom, realizzate per software di fotogrammetria e computer vision. Attualmente sviluppo prevalentemente in Java nel campo della firma digitale.
 
-<b>Warning</b>: input data and results were tested in this specific context only.
-
-This work is dedicated to <b>Donato 'Dino' Ginepri</b>, a CAI member and a friend.
-
-Features
+Esperienze di lavoro
 ------
-- parsing of GPX tracks (GPS generated)
-- parsing of KML area (Google Earth generated)
-- classification results stored to CSV
-- optional lat-lon wgs84 coordinates translation to mercator
-- optional gpx decimation
-- optional leaflet maps generation
+<h3>Aruba S.p.A.</h3>  
+<a href="https://www.pec.it/partner-firma-digitale.aspx" target=_blank> view </a>
+<h4>marzo 2016 - oggi</h4>  
+<h5>Sviluppatore senior</h5> 
+In Aruba faccio parte del gruppo "eSecurity" e mi occupo prevalentemente di firma digitale. 
+Seguo specificamente l'evoluzione del core crittografico Java e dei client (web e desktop) basati su di esso. 
+La mia attività di sviluppo, manutenzione e ricerca in Aruba riguarda inoltre:
 
-Option file and usage
+- servizi SOAP/REST di firma, verifica e crittazione, nell'ambito dell'infrastruttura PKI aziendale
+- client di firma digitale e validazione (ArubaSign, FileProtector, ARSS, VOL, ...) 
+- componenti SDK crittografiche 
+- tecnologie di installazione e aggiornamento automatico multipiattaforma
+- integrazione delle librerie smartcard a basso livello (gestione componentinative e APDU)
+- rinnovo e installazione dei certificati di firma digitale su supporto smartcard
+- manutenzione componenti legacy (es. Applet e vecchie versioni del core)
+- testing automatico 
+- documentazione dei sistemi ad uso interno
+ 
+<h3>Ars Automation srl</h3>  
+ <a href="https://youtu.be/7DqNGhOCkgk" target=_blank> view </a>
+<h4>novembre 2015 - marzo 2016</h4> 
+<h5>Progetto automazione industriale "FlexiVision"</h5>
+
+Ho analizzato e realizzato un progetto destinato alla realizzazione di un software (FlexiVision) per la sincronizzazione e il controllo di robot generici e feeder tramite un sistema di computer vision. Il software, realizzato in C#, prevede la gestione sincronizzata dalla periferica di immagine, del robot e del feeder FlexiBowl prodotto da ARS. Le comunicazioni con i device avvengono tramite protocollo TCP/IP. La visione, dopo aver analizzato il frame corrente, fornisce al robot le coordinate del pezzo da movimentare (già convertite nel sistema di riferimento didestinazione), implementando un sistema di "pick&place" indipendente dalla specifica marca e tipologia di robot. La computer vision è stata implementata tramite la libreria proprietaria Halcon.
+
+<h3>Menci Software Srl</h3>  
+ <a href="https://www.menci.com/it/" target=_blank> view </a>
+<h4>giugno 2004 - ottobre 2015</h4> 
+<h5>Sviluppatore software - R&D</h5>
+
+Durante la mia permanenza in Menci Software sono stato coinvolto nelle seguenti attività:
+
+- sviluppo di software fotogrammetrico e computer vision per applicazioni di cartografia, rilievo stradale, sicurezza, archeologia, restauro, architettura, indagine forense e gestione immagini aeree e da drone. Ho utilizzato ilinguaggi C++, C, PHP e Javascript e l'IDE Visual Studio C++ con MFC 
+- creazione di interfacce multilingua custom
+- gestione dei dati voluminosi in flussi di lavoro complessi
+- verifica e testing procedure
+- integrazione tra sistemi e formati diversi
+- integrazione e gestione di database SQL
+- sistemi di protezione e licenza software, tramite dispositivi hardware custom e server di autenticazione 
+- interfacce software per la comunicazione e la sincronizzazione di dispositivi di immagine quali di fotocamere reflex, termocamere, visori stereoscopici, immersivi e view-through, microscopi, videoproiettori
+- calibrazione delle periferiche di immagine
+- creazione di interfacce di controllo per slider con step-motor e teste a movimentazione micrometrica
+- gestione della rete LAN aziendale e setup sistemistico di server Windows e Linux
+- creazione e gestione dei siti internet aziendali, ottimizzazione SEO tramite le piattaforme CMS Joomla! e WordPress
+- realizzazione del materiale divulgativo (depliant, pannelli, video) tramite Adobe Photoshop, Illustrator e Premiere. Realizzazione degli help online e dei tutorial multilingua
+- partecipazione a fiere in rappresentanza dell'azienda (SAIE, ASITA, Salonedel Restauro di Ferrara, Roma Drone) e conferenze (CNR ICVBC, Universitàdi Firenze)
+- assistenza diretta al cliente. Ho tenuto corsi formativi presso il Centro di Addestramento per la Polizia Stradale di Cesena, il Cyprus Institute di Nicosia e per la Polizia Municipale di una decina di comuni italiani. All'estero ho fatto tutoraggio e assistenza presso l'azienda municipale BIMTAS di Istanbul
+
+<h3>SiSu srl</h3>  
+<h4>ottobre 2003 - giugno 2004</h4> 
+<h5>Collaborazione a progetto open source "RadioVox"</h5>
+Ho collaborato al progetto open source "RadioVox" per la realizzazione di una regia automatica per le radio emittenti. 
+Il mio lavoro ha riguardato la realizzazione e l'ottimizzazione della GUI.
+
+Formazione
 ------
-synopsis: Dino.exe <option full file path>
-  
-The option file is a standard txt with following entries
-- trackFolder=[gpx folder path]  (*)
-- areaFolder=[kml folder path] (*)
-- csvPath=[csv output path] (*)
-- multiarea=[true|false], default = true -> a track can be linked to more than one area
-- threshold=[0,1], default=0.2 -> ratio of track points inside an area over the total, needed to link track and area
-- projectionType=[mercator|wgs84], default = wgs84
-- decimate=[true|false], default = true -> if the decimation gpx version must be generated
-- maxPoint=<integer>, default = 100 -> max number of points of a decimated track
-- verbose=[true|false], default = true, process output is printed to console
-- buildMapArea=[true|false], default = true, build a leaflet map with all area's tracks
-- showAreaOnMap=[true|false], default = true, shows the area polygon on the map
-- showMarkers=[true|false], default = true, shows the markers on the map
-- mapFolder=[map folder path], the folder where are stored built maps
-  
-A sample option file is included into sources.
+<h3>Università degli Studi di Firenze</h3>
+<h4>1998 - 2003</h4> 
+- Laurea triennale in Scienze e Tecnologie Informatiche (classe 26), Scienze informatiche 
+- voto 97/110
+- Tesi "WebTesting: teoria ed applicazioni", relatore prof. Pierluigi Crescenzi
 
-(*) required
-
-Input/output Data
-------
-- Input: a folder with GPX files (tracks)
-- Input: a folder with KML files (area)
-- Output: a CSV classification file
-- Output: a folder with decimated GPX files
-- Output: a folder with leaflet area maps
-
-Input data are never modified or deleted.
-Output data are overwritten.
-
-Binaries and samples
-------
-Under bin folder is included a binary built with Visual Studio 2012.
-In the sample_data folder are stored some test gpx and kml.
-
-Some leaflet map folders deployed on my web server is visible at those links
-- https://www.claudiotortorelli.it/dino/casentino/index.html
-
-![Alt text](https://www.claudiotortorelli.it/dino/catenaia1.jpg?raw=true "Sample ESRI")
-![Alt text](https://www.claudiotortorelli.it/dino/catenaia2.jpg?raw=true "Sample OSM Topographic")
-
-Credits
------
-- Ray Cast algorithm 
-  https://www.codeproject.com/Tips/626992/Check-if-a-Point-is-Inside-the-Polygon-Using-Ray-C
-- MercatorConverter is a C# porting of this python version 
-  https://gis.stackexchange.com/questions/15269/how-to-convert-lat-long-to-meters-using-mercator-projection-in-c
-- leaflet map library (https://leafletjs.com/); gpx plugins and samples
-  https://github.com/StephSaephan/leaflet-map-example
-  https://github.com/mpetazzoni/leaflet-gpx
-
-Change Log
-------
-<b>1.1.2 2020-03-17</b>
-- Options improvements about maps
-
-<b>1.1.1 2020-03-14</b>
-- Added area layer to leaflet map
-
-<b>1.1.0 2020-03-07</b>
-- Added leaflet optional map building
-- GPX decimation
-
-<b>1.0.1 2020-02-18</b>
-- Options parsing minor bugfix
-- Added verbose output
-- Added some sample data
-
-<b>1.0.0 2020-02-17</b>
-- First version
+<h3>ITC Buonarroti</h3>
+<h4>1992 - 1997</h4> 
+- Diploma Tecnico Commerciale
+- voto 52/60
