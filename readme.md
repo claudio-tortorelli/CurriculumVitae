@@ -3,7 +3,7 @@
 Riepilogo
 --------
 Sono fortemente motivato nello sviluppo di soluzioni software innovative, che richiedano interdisciplinarietà, ricerca e aggiornamento. A livello professionale ho sempre lavorato in team di sviluppo, assumendo anche ruoli di tutoraggio e coordinamento.
-Ho maturato un'esperienza decennale come programmatore C++ di applicazioni scientifiche con hardware custom, realizzate per software di fotogrammetria e computer vision. Attualmente sviluppo prevalentemente in Java nell'ambito di client e servizi per la firma digitale.
+Ho maturato un'esperienza decennale come programmatore C++ di applicazioni scientifiche con hardware custom, realizzate per software di fotogrammetria e computer vision. Attualmente sviluppo prevalentemente in Java client e servizi per la firma digitale.
 
 Esperienze di lavoro
 ------
@@ -11,9 +11,11 @@ Esperienze di lavoro
 <h4>marzo 2016 - oggi</h4>  
 <h5>Sviluppatore senior</h5> 
 In Aruba faccio parte del gruppo "eSecurity" e mi occupo prevalentemente di firma digitale. 
-Seguo prevalentemente l'evoluzione del core crittografico Java e dei client (web e desktop) basati su di esso.
+Seguo prevalentemente l'evoluzione del core crittografico Java e dei client/server basati su di esso.
+Coordino un gruppo interno di troubleshoot e supporto all'assistenza specialistica,
+che esegue triage, hotfix e manutenzione trasversale ai prodotti.
 
-La mia attività di sviluppo, manutenzione e ricerca in Aruba riguarda inoltre:
+La mia attività in Aruba concerne principalmente:
 - servizi SOAP/REST di firma, marcatura temporale, verifica e crittazione, nell'ambito dell'infrastruttura PKI aziendale
 - servizi backend per il provisioning, la strong auth e la gestione delle basi dati
 - client di firma digitale e validazione (ArubaSign, FileProtector, ARSS, VOL, ...) 
