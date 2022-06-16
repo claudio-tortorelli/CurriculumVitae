@@ -3,21 +3,18 @@
 Riepilogo
 --------
 Sono fortemente motivato nello sviluppo di soluzioni software innovative, che richiedano interdisciplinarietà, ricerca e aggiornamento. A livello professionale ho sempre lavorato in team di sviluppo, assumendo anche ruoli di tutoraggio e coordinamento.
-Ho maturato un'esperienza decennale come programmatore C++ di applicazioni scientifiche con hardware custom, realizzate per software di fotogrammetria e computer vision. Attualmente sviluppo principalmente in Java client e webservices per la firma digitale.
+Ho maturato un'esperienza decennale come programmatore C++ di applicazioni scientifiche con hardware custom, realizzate per software di fotogrammetria e computer vision. Attualmente sviluppo client e webservices dedicati al mondo della Firma Digitale, essenzialmente in Java.
 
 Esperienze di lavoro
 ------
 <h3><a href="https://www.pec.it/partner-firma-digitale.aspx" target="_blank"> Aruba S.p.A. </a></h3>  
 <h4>marzo 2016 - oggi</h4>  
 <h5>Sviluppatore senior</h5> 
-In Aruba faccio parte del gruppo "eSecurity" e mi occupo di firma digitale. 
-Seguo l'evoluzione del core crittografico Java e dei client/server basati su di esso.
-Coordino un gruppo interno di troubleshoot e supporto all'assistenza specialistica,
-che esegue triage, hotfix e manutenzione trasversale ai prodotti, fornendo anche assistenza diretta al cliente e incident management.
+In Aruba faccio parte del gruppo "eSecurity" e mi occupo di Firma Digitale. Seguo l'evoluzione del core crittografico Java e dei client/server basati su di esso. Coordino un gruppo interno di troubleshoot e supporto all'assistenza specialistica, che esegue triage, hotfix e manutenzione trasversale ai prodotti, fornendo quando necessario anche assistenza diretta al cliente e incident management.
 
 La mia attività in Aruba concerne anche:
 - servizi SOAP/REST di firma, marcatura temporale, verifica e crittazione, nell'ambito dell'infrastruttura PKI aziendale
-- servizi backend per il provisioning, la strong auth e la gestione delle basi dati
+- servizi backend per il provisioning, la strong auth e la gestione delle relative basi dati
 - client di firma digitale e validazione (ArubaSign, FileProtector, ARSS, VOL, ...) 
 - componenti SDK crittografiche 
 - tecnologie di installazione e aggiornamento automatico multipiattaforma
@@ -28,7 +25,7 @@ La mia attività in Aruba concerne anche:
 - testing automatico e integrazione continua (C.I.)
 - documentazione dei sistemi ad uso interno
 
-In ambito aziendale ho seguito corsi di approfondimento di Docker, Kubernetes e Sicurezza (OWASP)
+In ambito aziendale ho seguito corsi di approfondimento su Docker, Kubernetes e Sicurezza (OWASP)
  
 <h3><a href="https://www.arsautomation.com/" target="_blank"> Ars Automation Srl </a></h3>  
 <h4>novembre 2015 - marzo 2016</h4> 
